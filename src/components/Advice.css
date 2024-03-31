@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: inset 0px 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .advice-number {
+    font-size: 18px;
+    color: #4CAF50;
+  }
+  
+  .advice-text {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .dice-icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; 
+    cursor: pointer;
+  }
+  
+  .green-circle {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    background-color: #4CAF50;
+    position: absolute;
+    bottom: -30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0; 
+    
+  }
+  
+  .divider {
+    width: 100%;
+    height: auto;
+  }
+
+  .dice-icon:hover {
+    background-color: #ccc; 
+  }
+  
+  
